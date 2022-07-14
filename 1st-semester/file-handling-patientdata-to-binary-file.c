@@ -181,6 +181,7 @@ int main()
     return 0;
 }
 
+//function to show all patient data
 void TampilkanArray(Data DataPasien[], int jumlah)
 {
 
