@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-struct datapasien
+struct datapasien //struct to save patient data
 {
 
     unsigned int NomorPasien;
@@ -17,7 +17,7 @@ typedef struct datapasien Data;
 
 Data DataPasien[100];
 
-void TampilkanArray(Data DataPasien[], int);
+void TampilkanArray(Data DataPasien[], int); //declare of function
 
 enum menu
 {
@@ -31,12 +31,13 @@ enum menu
 int main()
 {
 
-    Data DataPasien[100];
+    Data DataPasien[100]; //array of struct
     int jumlahdata, i;
 
     FILE *datapasien;
 
-    printf("\nMasukkan jumlah data pasien yang ingin disimpan : ");
+    //input many number of patient data that will be saved
+    printf("\nMasukkan jumlah data pasien yang ingin disimpan : "); 
     scanf("%d", &jumlahdata);
 
     printf("\n\n");
@@ -69,7 +70,7 @@ int main()
     printf("=                                                  =\n");
     printf("=                                                  =\n");
     printf("====================================================\n\n");
-
+    //main menu
     printf("--------  Pilihan Menu  ----------\n");
     printf("1. Menampilkan Data Pasien\n");
     printf("2. Write Data Pasien ke Binary File\n");
