@@ -1,2 +1,2 @@
 # college-assignments
-this repository is filled by my college assignments on my first year as student.
+this repository is filled by my college assignments as computer science student in sebelas maret university.
