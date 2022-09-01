@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class HelloWorld {
     // main method
     public static void main(String[] args) {
@@ -7,4 +5,3 @@ public class HelloWorld {
         System.out.println("halo, ini source code OOP Java buatanku");
     }
 
-}
